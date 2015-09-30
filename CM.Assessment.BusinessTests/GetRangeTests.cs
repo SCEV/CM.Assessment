@@ -76,7 +76,7 @@ namespace CM.Assessment.Business.Tests
         [TestMethod()]
         public void ZeroCheck()
         {
-            // 0 is NOT DivisableBy 3,5 and 15 but the C# % operator handles 0 % n, and always returns 0, so need to test that we've handeld this case in our code.
+            // 0 is NOT DivisableBy 3,5 and 15 but the C# % operator handles 0 % n, and always returns 0, so need to test that we've handled this case in our code.
             int minValue = 0;
             int maxValue = 1;
             int i = minValue;
